@@ -1,0 +1,5 @@
+set.seed(1 2 3)
+random_letters<-sample(LETTERS,size=20,replace=TRUE)
+random_factor<-factor(random_letters)
+sampled_levels<-sample(levels(random_factors),size=5)
+print(sampled_levels)
